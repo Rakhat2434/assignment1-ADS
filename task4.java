@@ -6,7 +6,7 @@ public class task4 {
         if (n == 0 || n == 1) {
             return 1;
         }
-        return n * factorial(n - 1); //recursion
+        return n * factorial(n - 1); // Multiply `n` by the factorial of `n-1` recursively.
     }
 
     public static void main(String[] args) {
