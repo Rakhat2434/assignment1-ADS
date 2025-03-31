@@ -9,9 +9,9 @@ public class  task8 {
         if (!Character.isDigit(s.charAt(index))) {
             return "NO";
         }
-        return isAllDigits(s, index + 1);
+        return isAllDigits(s, index + 1); // Recursively check the next character
     }
-
+    // Wrapper function to handle the empty string case and start recursion
     public static String isAllDigits(String s) {
         if (s.isEmpty()) return "NO";
         return isAllDigits(s, 0);
